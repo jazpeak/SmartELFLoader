@@ -11,6 +11,9 @@
 #include <assert.h>
 #include <sys/types.h>
 #include <sys/mman.h>
+#include <signal.h>
+#include <unistd.h>
+
 
 void load_and_run_elf(char** exe);
 void loader_cleanup();
